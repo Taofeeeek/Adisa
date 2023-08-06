@@ -4,6 +4,11 @@
     padding: 0;
     font-family: Lucida sans Unicode ;
 }
+
+body{
+    background-image: url(background5.jpg);
+}
+
 /* Navbar section */
 .navbar {
     background: black;
@@ -71,6 +76,8 @@
 
 .home{
     /* background-color: red; */
+    /* background-image: url(background1.jpg);
+    background-size: 1500px; */
 }
 
 .home__container{
@@ -103,6 +110,7 @@
     width: 300px;
     height:400px;
     /*border: 4px white solid;*/
+    border-radius: 0rem;
 }
 
 .home__content h1{
@@ -125,6 +133,10 @@
 }
 
 /* Resume section CSS */
+
+.resume{
+    
+}
 
 .resume__container{
     display: grid;
@@ -228,7 +240,7 @@
     font-size: 50px;
     text-align: center;
     padding-bottom: 7vh;
-    padding-top: 7vh;
+    
 }
 
 .about__container p{
@@ -353,7 +365,7 @@ footer{
     }
     
     .home__content h1{
-        background-color: white;
+        /* background-color: white; */
         text-align: center;
         
     }
@@ -410,6 +422,10 @@ footer{
     .project__content2{
         text-align: center;
         padding: 0 0;
+    }
+
+    .about h1{
+        padding-top: 7vh;
     }
 
 }
