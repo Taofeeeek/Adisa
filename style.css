@@ -202,10 +202,12 @@ body{
     margin: 0 auto;
     min-height: 60vh;
     justify-self: center;
+    justify-content: space-between;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
     /* background-color: silver; */
+    padding: 0 150px;
 }
 
 .project__content1{
@@ -218,10 +220,7 @@ body{
 
 .project__content2{
     /* background-color: blue; */
-    width: 100%;
-    text-align: right;
     padding-top: 15vh;
-    padding-right: 38vw;
     font-size: 20px;
 }
 
@@ -374,7 +373,7 @@ footer{
         text-align: center;
     }
 
-   .resume__container{
+    .resume__container{
         display: flex;
         grid-template-columns: 1fr 1fr;
         align-items: center;
@@ -407,6 +406,7 @@ footer{
 
     .project h1{
         padding-top: 0;
+        padding-bottom: 0;
     }
 
     .project__container{
