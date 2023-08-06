@@ -402,6 +402,10 @@ footer{
         height: 100%;
     }
 
+    .project h1{
+        padding-top: 0;
+    }
+
     .project__container{
         display: inline;
         margin: 0 auto;
