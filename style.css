@@ -407,4 +407,9 @@ footer{
         width: 100%;
     }
 
+    .project__content2{
+        text-align: center;
+        padding: 0 0;
+    }
+
 }
