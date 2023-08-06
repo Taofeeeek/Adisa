@@ -253,6 +253,7 @@ body{
 /* Footer Section */
 footer{
     text-align: center;
+    color: white;
 }
 
 @media screen and (max-width: 710px) {
