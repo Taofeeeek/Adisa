@@ -374,8 +374,8 @@ footer{
         text-align: center;
     }
 
-    .resume__container{
-        display: grid;
+   .resume__container{
+        display: flex;
         grid-template-columns: 1fr 1fr;
         align-items: center;
         margin: 0 auto;
@@ -391,10 +391,13 @@ footer{
     .resume__content p{
         width: 30vw;
         /* background-color: green; */
+        font-size: 25px;
     }
 
     .resume__image{
         width: 100%;
+        margin-left: 4vw;
+        /* margin-bottom: 9vh; */
     }
 
     #resume{
